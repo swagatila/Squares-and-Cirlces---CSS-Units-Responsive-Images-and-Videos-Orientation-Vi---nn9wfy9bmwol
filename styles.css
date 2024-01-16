@@ -1,9 +1,17 @@
 .outer-square {
-  /* your css goes here */
+  width: 600px;
+  height: 600px;
+  background-color: #fff;
+  display: grid;
+  gap: 10px;
 }
 .inner-square {
-  /* your css goes here */
+  padding: 10px;
+  background-color: green;
+  align-items: center;
+  justify-content: center;
 }
 .circle {
-  /* your css goes here */
+  background-color: blue;
+  border-radius: 100%;
 }
