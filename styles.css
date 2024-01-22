@@ -5,10 +5,9 @@
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 .inner-square {
-  width: calc(100%-20px);
-  height: calc(100%-20px);
   display: flex;
   background-color: green;
   align-items: center;
@@ -17,5 +16,5 @@
 }
 .circle {
   background-color: blue;
-  border-radius: 50%;
+  border-radius: 100%;
 }
